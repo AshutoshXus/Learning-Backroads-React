@@ -1,6 +1,6 @@
 # Backroads App
 
-[Working Application - Deployed](https://backroads-app.netlify.app/)
+[Working Application - Deployed](https://ashu-learning-backroads.netlify.app/)
 
 - backroads-html - working html/css/javascript project (contains assets)
 - final(complete source code) - working react application
@@ -8,13 +8,6 @@
   - run 'npm install'
   - once the dependencies are installed run 'npm start'
 
-#### React Course
-
-[My React Course](https://www.udemy.com/course/react-tutorial-and-projects-course/?referralCode=FEE6A921AF07E2563CEF)
-
-#### Support
-
-Find the Content Useful? [You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga)
 
 #### Create New React App
 
@@ -333,25 +326,7 @@ export default Services
 - re-use page and social links
 - in the <span id="date">provide current year (hint - {})
 
-#### Alternative Approach (optional)
-
-- in components create PageLinks.js
-- import pageLinks
-- return the entire list and replace current setup in Navbar, Footer
-- "gotcha"
-  - the more "moving parts" you will have the harder it's going to be to manage
-  - my personal preference, if possible just use data
-
-#### Challenge (optional)
-
-- create more components (essentially, split up the code more)
-- find all map methods and move elements to separate components
-- By the end of the video you should have four additional components
-  - Tour.js
-  - Service.js
-  - SocialLink.js
-  - PageLink.js
-
+  
 #### Continuous Deployment
 
 - fix warnings (About Section)
@@ -382,14 +357,6 @@ export default Services
       git branch -M main
       git push -u origin main
 
-#### Benefits
-
-- don't need to keep project locally
-- automatic builds
-
-#### Warnings "Gotcha"
-
-- Netlify treats warnings as errors
 
 package.json
 
